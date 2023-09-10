@@ -8,7 +8,7 @@
 #추가
 info.*
 .env
-
+/info.md
 # testing
 /coverage
 
