@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+#추가
+info.md 
+.env
+
 # testing
 /coverage
 
