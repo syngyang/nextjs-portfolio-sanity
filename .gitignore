@@ -6,7 +6,7 @@
 .pnp.js
 
 #추가
-info.md 
+info.*
 .env
 
 # testing
