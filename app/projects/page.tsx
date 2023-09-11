@@ -24,9 +24,11 @@ async function getProjects(){
   return data;
 }
 
+export const revalidate = 60;
+
 export default async function ProjectsPage() {
   const data:Data[] = await getProjects();
-  console.log("Data:",data) // project 페이지가 열리면 작동
+  // console.log("Data:",data) // project 페이지가 열리면 작동
   return (
     <div className='divide-y divide-gray-200 dark:divide-gray-700'>
       <div className="space-y-2 pt-6 pb-8 md:space-y-5">
